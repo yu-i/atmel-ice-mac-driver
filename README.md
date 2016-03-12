@@ -21,10 +21,14 @@ extract the zip archive and copy it to this location (you might have to type in 
 /System/Library/Extensions
 
 change permissions and ownership:
+
 `sudo chown -R root:wheel /System/Library/Extensions/AtmelICE.kext`
+
+
 `sudo chmod -R 755 /System/Library/Extensions/AtmelICE.kext`
  
 reload the kext cache:
+
 `sudo kextcache -system-caches`
 
 restart your computer
