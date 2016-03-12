@@ -12,7 +12,6 @@
 *.jar
 *.rar
 *.tar
-*.zip
 *.log
 .DS_Store
 .DS_Store?
