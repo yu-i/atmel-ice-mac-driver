@@ -16,18 +16,16 @@ you'll have to change the pid and vid to match that of Atmel ICE.
  
 For your convenience, I've attached the kext (contains no code, only Info.plist)
  
-extract the tar archive:
-tar -xf AtmelICE.kext.tar.bz2
-copy it to
-/System/Library/Extensions (as root (sudo))
-sudo cp AtmelICE.kext /System/Library/Extensions
- 
+extract the zip archive and copy it to this location (you might have to type in your password)
+
+/System/Library/Extensions
+
 change permissions and ownership:
-chown -R root:wheel /System/Library/Extensions/AtmelICE.kext
-chmod -R 755 /System/Library/Extensions/AtmelICE.kext
+`sudo chown -R root:wheel /System/Library/Extensions/AtmelICE.kext`
+`sudo chmod -R 755 /System/Library/Extensions/AtmelICE.kext`
  
 reload the kext cache:
-kextcache -system-caches
- 
-(You might want to unplug and plug-in the device again).
+`sudo kextcache -system-caches`
+
+restart your computer
 
