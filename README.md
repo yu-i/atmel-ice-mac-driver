@@ -6,6 +6,7 @@ Installation method is same at head item.
 Conditions for using this item:
 
 Error Massage is...
+
 avrdude: usbdev_open(): error claiming interface 0: Permission denied avrdude: usbdev_open(): error claiming interface 1: Permission denied avrdude: usbdev_open(): error claiming interface 2: Permission denied avrdude: usbdev_open(): no usable interface found avrdude: usbdev_open(): did not find any USB device "usb" (0x03eb:0x2111) avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2141
 
 ---
