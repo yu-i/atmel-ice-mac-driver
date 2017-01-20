@@ -1,3 +1,18 @@
+#Atmel ICE Mac Driver(for use with avrdude) 　pid 0x2141　ver.
+
+If head item is not operated , try this item
+Installation method is same at head item.
+
+Conditions for using this item:
+
+Error Massage is...
+avrdude: usbdev_open(): error claiming interface 0: Permission denied avrdude: usbdev_open(): error claiming interface 1: Permission denied avrdude: usbdev_open(): error claiming interface 2: Permission denied avrdude: usbdev_open(): no usable interface found avrdude: usbdev_open(): did not find any USB device "usb" (0x03eb:0x2111) avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2141
+
+---
+Cited below
+https://github.com/jakeh12/atmel-ice-mac-driver
+---
+
 #Atmel ICE Mac Driver (for use with avrdude)
  
 If you get the error:
